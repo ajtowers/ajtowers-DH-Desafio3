@@ -1,0 +1,73 @@
+,Media,Stdev,Params
+0,0.7902,0.0004,"{'featselect': None, 'model': LogisticRegression(C=1, class_weight='balanced', dual=False,
+          fit_intercept=True, intercept_scaling=1, max_iter=100,
+          multi_class='warn', n_jobs=None, penalty='l2', random_state=None,
+          solver='warn', tol=0.0001, verbose=0, warm_start=False), 'model__C': 1, 'resamp': None}"
+6,0.7900,0.0003,"{'featselect': RFECV(cv='warn',
+   estimator=LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False),
+   min_features_to_select=1, n_jobs=None, scoring=None, step=1, verbose=0), 'model': LogisticRegression(C=1, class_weight='balanced', dual=False,
+          fit_intercept=True, intercept_scaling=1, max_iter=100,
+          multi_class='warn', n_jobs=None, penalty='l2', random_state=None,
+          solver='warn', tol=0.0001, verbose=0, warm_start=False), 'model__C': 1, 'resamp': None}"
+2,0.7883,0.0008,"{'featselect': None, 'model': LogisticRegression(C=1, class_weight='balanced', dual=False,
+          fit_intercept=True, intercept_scaling=1, max_iter=100,
+          multi_class='warn', n_jobs=None, penalty='l2', random_state=None,
+          solver='warn', tol=0.0001, verbose=0, warm_start=False), 'model__C': 100, 'resamp': None}"
+4,0.7883,0.0009,"{'featselect': None, 'model': LogisticRegression(C=1, class_weight='balanced', dual=False,
+          fit_intercept=True, intercept_scaling=1, max_iter=100,
+          multi_class='warn', n_jobs=None, penalty='l2', random_state=None,
+          solver='warn', tol=0.0001, verbose=0, warm_start=False), 'model__C': 10000, 'resamp': None}"
+8,0.7881,0.0005,"{'featselect': RFECV(cv='warn',
+   estimator=LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False),
+   min_features_to_select=1, n_jobs=None, scoring=None, step=1, verbose=0), 'model': LogisticRegression(C=1, class_weight='balanced', dual=False,
+          fit_intercept=True, intercept_scaling=1, max_iter=100,
+          multi_class='warn', n_jobs=None, penalty='l2', random_state=None,
+          solver='warn', tol=0.0001, verbose=0, warm_start=False), 'model__C': 100, 'resamp': None}"
+10,0.7881,0.0006,"{'featselect': RFECV(cv='warn',
+   estimator=LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False),
+   min_features_to_select=1, n_jobs=None, scoring=None, step=1, verbose=0), 'model': LogisticRegression(C=1, class_weight='balanced', dual=False,
+          fit_intercept=True, intercept_scaling=1, max_iter=100,
+          multi_class='warn', n_jobs=None, penalty='l2', random_state=None,
+          solver='warn', tol=0.0001, verbose=0, warm_start=False), 'model__C': 10000, 'resamp': None}"
+7,0.7847,0.0014,"{'featselect': RFECV(cv='warn',
+   estimator=LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False),
+   min_features_to_select=1, n_jobs=None, scoring=None, step=1, verbose=0), 'model': LogisticRegression(C=1, class_weight='balanced', dual=False,
+          fit_intercept=True, intercept_scaling=1, max_iter=100,
+          multi_class='warn', n_jobs=None, penalty='l2', random_state=None,
+          solver='warn', tol=0.0001, verbose=0, warm_start=False), 'model__C': 1, 'resamp': SMOTEENN(enn=None, random_state=None, ratio=None, sampling_strategy='auto',
+     smote=None)}"
+1,0.7843,0.0010,"{'featselect': None, 'model': LogisticRegression(C=1, class_weight='balanced', dual=False,
+          fit_intercept=True, intercept_scaling=1, max_iter=100,
+          multi_class='warn', n_jobs=None, penalty='l2', random_state=None,
+          solver='warn', tol=0.0001, verbose=0, warm_start=False), 'model__C': 1, 'resamp': SMOTEENN(enn=None, random_state=None, ratio=None, sampling_strategy='auto',
+     smote=None)}"
+3,0.7835,0.0010,"{'featselect': None, 'model': LogisticRegression(C=1, class_weight='balanced', dual=False,
+          fit_intercept=True, intercept_scaling=1, max_iter=100,
+          multi_class='warn', n_jobs=None, penalty='l2', random_state=None,
+          solver='warn', tol=0.0001, verbose=0, warm_start=False), 'model__C': 100, 'resamp': SMOTEENN(enn=None, random_state=None, ratio=None, sampling_strategy='auto',
+     smote=None)}"
+5,0.7834,0.0010,"{'featselect': None, 'model': LogisticRegression(C=1, class_weight='balanced', dual=False,
+          fit_intercept=True, intercept_scaling=1, max_iter=100,
+          multi_class='warn', n_jobs=None, penalty='l2', random_state=None,
+          solver='warn', tol=0.0001, verbose=0, warm_start=False), 'model__C': 10000, 'resamp': SMOTEENN(enn=None, random_state=None, ratio=None, sampling_strategy='auto',
+     smote=None)}"
+9,0.7831,0.0005,"{'featselect': RFECV(cv='warn',
+   estimator=LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False),
+   min_features_to_select=1, n_jobs=None, scoring=None, step=1, verbose=0), 'model': LogisticRegression(C=1, class_weight='balanced', dual=False,
+          fit_intercept=True, intercept_scaling=1, max_iter=100,
+          multi_class='warn', n_jobs=None, penalty='l2', random_state=None,
+          solver='warn', tol=0.0001, verbose=0, warm_start=False), 'model__C': 100, 'resamp': SMOTEENN(enn=None, random_state=None, ratio=None, sampling_strategy='auto',
+     smote=None)}"
+11,0.7829,0.0004,"{'featselect': RFECV(cv='warn',
+   estimator=LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False),
+   min_features_to_select=1, n_jobs=None, scoring=None, step=1, verbose=0), 'model': LogisticRegression(C=1, class_weight='balanced', dual=False,
+          fit_intercept=True, intercept_scaling=1, max_iter=100,
+          multi_class='warn', n_jobs=None, penalty='l2', random_state=None,
+          solver='warn', tol=0.0001, verbose=0, warm_start=False), 'model__C': 10000, 'resamp': SMOTEENN(enn=None, random_state=None, ratio=None, sampling_strategy='auto',
+     smote=None)}"
